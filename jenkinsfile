@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_CREDENTIALS_ID = 'Hubdetails' // ID for Docker Hub credentials stored in Jenkins
+        DOCKER_CREDENTIALS_ID = 'cfee730d-55df-4401-b36a-dcb2cf03fe48' // ID for Docker Hub credentials stored in Jenkins
         EC2_SSH_CREDENTIALS_ID = ''  // ID for SSH credentials for EC2 instance stored in Jenkins
         DOCKER_IMAGE_NAME = 'myreact-app'    // The name of your Docker image
         DOCKER_TAG = 'version1'             // Tag for your Docker image
