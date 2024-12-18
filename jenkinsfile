@@ -1,5 +1,4 @@
 pipeline {
-
     agent any
     environment {
         DOCKER_CREDENTIALS_ID = 'cfee730d-55df-4401-b36a-dcb2cf03fe48' // ID for Docker Hub credentials stored in Jenkins
